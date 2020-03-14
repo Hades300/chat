@@ -1,0 +1,28 @@
+.input-box {
+    display: inline-flex;
+    border-width: 1px;
+    border-radius: 6px;
+    min-height: 50px;
+    font-weight: 500;
+    border-style: solid;
+}
+
+.input-button {
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.textEditor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 300px;
+    position: relative;
+    bottom: 0;
+}
+
+html {
+    height: 100vw;
+}
